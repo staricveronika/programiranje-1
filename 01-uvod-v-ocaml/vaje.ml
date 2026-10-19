@@ -80,7 +80,7 @@ let primer_vektorji_5 = vmesni_kot [1.0; 0.0] [0.0; 1.0]
 [*----------------------------------------------------------------------------*)
 
 let normirani u = 
-  List.map (fun x -> x /. norma u)
+  List.map (fun x -> x /. norma u) u
 
 let primer_vektorji_6 = normirani [3.0; 4.0]
 (* val primer_vektorji_6 : float list = [0.600000000000000089; 0.8] *)
